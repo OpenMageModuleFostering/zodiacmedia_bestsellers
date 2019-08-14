@@ -38,23 +38,6 @@
                 <label>Maximum dimension of product thumbnail images (pixels)</label>
                 <type>text</type>
             </thumbnail_size>
-			<show_title translate="label">
-                <required>1</required>
-                <visible>1</visible>
-                <label>Show widget title</label>
-                <type>select</type>
-				<value>0</value>
-                <values>
-                    <default translate="label">
-                        <value>0</value>
-                        <label>No</label>
-                    </default>
-                    <list translate="label">
-                        <value>1</value>
-                        <label>Yes</label>
-                    </list>
-                </values>
-            </show_title>
             <template>
                 <required>1</required>
                 <visible>1</visible>

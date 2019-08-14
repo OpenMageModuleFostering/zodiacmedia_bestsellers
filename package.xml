@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>ZodiacMedia_Bestsellers</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License v3.0 (OSL-3.0)</license>
     <channel>community</channel>
@@ -12,11 +12,11 @@
 Being a Magento Widget this extension requires no coding to implement as you can add it to a CMS page using the Magento Admin Page's User Interface.&#xD;
 &#xD;
 This Widget also makes use of Magento caching to prevent unnecessary load on your database.</description>
-    <notes>Initial stable release.</notes>
+    <notes>Remove redundant Widget setting for displaying Widget title.</notes>
     <authors><author><name>Zodiac Media</name><user>zodiac_media</user><email>info@zodiacmedia.co.uk</email></author></authors>
     <date>2013-12-19</date>
-    <time>17:13:45</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="ZodiacMedia_Bestsellers.xml" hash="af3268521a3836420b95e48a16bbba44"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="zodiacmedia"><dir name="bestsellers"><dir name="widget"><dir name="bestsellers"><dir name="content"><file name="bestsellers_grid.phtml" hash="4c0010c017b01e139067c851829c26f4"/><file name="bestsellers_list.phtml" hash="579b94a60cd4d326d86f0d8c685938a7"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="ZodiacMedia"><dir name="Bestsellers"><dir name="Block"><file name="Bestsellers.php" hash="a822ac102a5aa2bf23508447ba27822c"/><dir name="Widget"><file name="Bestsellers.php" hash="84876dcec3eb10acf8d314b8617ef2f0"/></dir></dir><dir name="Helper"><file name="Data.php" hash="f7ced4fb3d3b51501cd8b6d0646e1618"/></dir><dir name="Model"><dir name="Resource"><dir name="Product"><file name="Collection.php" hash="2c88e954d4bd182877542318849cb454"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="909451a4b2597ca260db2ad35f9fe13b"/><file name="widget.xml" hash="289409cbbd416c36c4700eb18808afca"/></dir></dir></dir></target></contents>
+    <time>17:51:01</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="ZodiacMedia_Bestsellers.xml" hash="af3268521a3836420b95e48a16bbba44"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="zodiacmedia"><dir name="bestsellers"><dir name="widget"><dir name="bestsellers"><dir name="content"><file name="bestsellers_grid.phtml" hash="4c0010c017b01e139067c851829c26f4"/><file name="bestsellers_list.phtml" hash="579b94a60cd4d326d86f0d8c685938a7"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="ZodiacMedia"><dir name="Bestsellers"><dir name="Block"><file name="Bestsellers.php" hash="a822ac102a5aa2bf23508447ba27822c"/><dir name="Widget"><file name="Bestsellers.php" hash="84876dcec3eb10acf8d314b8617ef2f0"/></dir></dir><dir name="Helper"><file name="Data.php" hash="f7ced4fb3d3b51501cd8b6d0646e1618"/></dir><dir name="Model"><dir name="Resource"><dir name="Product"><file name="Collection.php" hash="2c88e954d4bd182877542318849cb454"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="13706da3153c23ffdcf220a0364b74f1"/><file name="widget.xml" hash="5ec3b6cae820bfb1a66a0eb471952bef"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
