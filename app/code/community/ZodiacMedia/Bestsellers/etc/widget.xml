@@ -20,8 +20,8 @@
  -->
 <widgets>
 	<bestsellers type="bestsellers/widget_bestsellers" translate="name description">
-        <name>Zodiac Media Bestsellers List</name>
-        <description>List of bestselling products.</description>
+        <name>Zodiac Media Bestsellers</name>
+        <description>A list of your store's bestselling products ordered by popularity.</description>
         <is_email_compatible>1</is_email_compatible>
         <parameters>
             <products_count translate="label">
