@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ZodiacMedia_Bestsellers",
+    "name": "OpenMageModuleFostering\/ZodiacMedia_Bestsellers",
     "type": "magento-module",
     "license": "Open-Software-License-v3.0-(OSL-3.0)",
     "homepage": "",
     "description": "An easy to use Widget which dynamically generates an ordered list of bestselling products for your store.",
     "authors": [
-    {
-        "name": "Zodiac Media",
-        "email": "info@zodiacmedia.co.uk"
-    }
-],
+        {
+            "name": "Zodiac Media",
+            "email": "info@zodiacmedia.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
